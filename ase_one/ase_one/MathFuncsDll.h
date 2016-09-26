@@ -24,5 +24,12 @@ namespace MathFuncs
 		// Returns a / b
 		// Throws const std::invalid_argument& if b is 0
 		static MATHFUNCSDLL_API double Divide(double a, double b);
+
+		static MATHFUNCSDLL_API unsigned long long GetNthPrime(int n);
+
+		static MATHFUNCSDLL_API unsigned int is_sushu(unsigned int n);
+
+		static MATHFUNCSDLL_API unsigned long long GetPrime(int n);
+
 	};
 }
